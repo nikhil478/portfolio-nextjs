@@ -2,5 +2,8 @@
 
 module.exports = {
   transpilePackages: ['react-icons'],
+  images: {
+    unoptimized: true
+  }
 }
 

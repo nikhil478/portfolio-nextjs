@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/all';
 
 const Navbar = () => {
     return (
-        <div className="md:w-[90%] my-4">
+        <div className="fixed w-full h-3% shadow-xl z-[100]">
             <div className="flex justify-between items-center w-full h-2% px-3 2xl:px-16">
                 <Image src="/assets/images.png" alt="/" width="125" height="10"/>
                 <div>
